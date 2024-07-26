@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="visitnepal">
+            <img src="images/visitnepal2030logo.png" alt="" id="logogo">
+        </div>
+        <nav class="navbar"></nav>
+        <ul class="navigation">
+            <li>Home</li>
+            <li><a href="explore.html" target="_blank">Explore</a></li>
+            <li>FAQs</li>
+        </ul>
+    </header>
+    <section>
+        <h1 id="demo"></h1><br><br>
+        <span>The world of exciting adventures and fun memories await you!</span>
+    </section>
+    <div class="btn">
+        <a href="#title1" style="--color: rgb(0, 237, 100)"><span>Shop Now</span><i></i></a>
+    </div>
+    <div class="container0">
+        <div id="title0">
+            <h1>New Arrivals</h1><br>
+        </div>
+        <div id="slideContainer">
+            <div class="slides flash"><img src="images/carousel1.jpg" width="100%" height="370px"></div>
+            <div class="slides flash"><img src="images/carousel2.jpg" width="100%" height="370px"></div>
+        </div><br>
+        <div id="dotContainer">
+            <span class="dots"></span>
+            <span class="dots"></span>
+           
+        </div>
+        <div class="sbutton">
+        <button id="button1" class="scroller">Kathmandu</button>
+        <button id="button2" class="scroller">Pokhara</button>
+        <button id="button3" class="scroller">Chitwan</button>
+        <button id="button4" class="scroller">Other Packages</button>
+        </div>
+    </div>
+
+    <hr>
+    <div id="title1">
+        <h1>Kathmandu</h1>
+    </div>
+    <div class="container">
+        <div class="items"><img src="images/kathmandu1nagarkot.PNG" alt="" class="mainimage">
+            <h2>The Medieval Experience <br> Nagarkot &nbsp;3-D 2-N Trek&nbsp;</h2><br>
+            <h3 class="price">Price Per Person: Rs.17000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn10" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Medieval Experience" quantity="qn10" rate="17000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/Kathmandu2temples.PNG" alt="" class="mainimage">
+            <h2>The Divine Experience <br> Kathmandu Temples &nbsp;3-D 1-N Tour&nbsp;</h2><br>
+            <h3 class="price">Price Per Person: Rs.12000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn11" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Divine Experience" quantity="qn11" rate="12000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/kathmandu3shivapurinationalpark.PNG" alt="" class="mainimage">
+            <h2>The Soothing Nature <br> Shivapuri National Park &nbsp;2-D 1-N Safari&nbsp;</h2><br>
+            <h3 class="price">Price Per Person: Rs.18000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn12" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Soothing Nature" quantity="qn12" rate="18000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/kathmandu4chandragirihills.PNG" alt="" class="mainimage">
+            <h2>Chills In The Hills <br> Chandragiri Hills &nbsp;2-D 1-N Tour&nbsp;</h2><br>
+            <h3 class="price">Price Per Person: Rs.8000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn13" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="Chills In The Hills" quantity="qn13" rate="8000">Add To Cart🛒</button>
+        </div>
+    </div>
+    <div class="proceed">
+        <button onclick="openModel()">PROCEED</button><br><br>
+        <p class="invalidText"></p>
+    </div>
+
+    <hr>
+    <div id="title2">
+        <h1>Pokhara</h1>
+    </div>
+    <div class="container2">
+        <div class="items"><img src="images/pokhara1sarangkottrek.PNG" alt="" class="mainimage">
+            <h2>The Nature In Mind <br> Sarangkot &nbsp;3-D 2-N&nbsp;Trek</h2><br>
+            <h3 class="price">Price Per Person: Rs.15000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn1" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Nature In Mind" quantity="qn1" rate="15000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/Poklhara2Thermal and Acrobatic paragliding.PNG" alt="" class="mainimage">
+            <h2>Dance In The Air <br>Acrobatic Paragliding &nbsp;1-D&nbsp;Package</h2><br>
+            <h3 class="price">Price Per Person: Rs.6000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn2" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="Dance In The Air" quantity="qn2" rate="6000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/pokhara3phewalake,davisfalls,begnaslake.PNG" alt="" class="mainimage">
+            <h2>The Thrilling Chance <br> Phewa Lake And Davis Falls &nbsp;1-D&nbsp;Tour</h2><br>
+            <h3 class="price">Price Per Person: Rs.4000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn3" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Thrilling Chance" quantity="qn3" rate="4000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/pokhara4annapurnabasecamptrek.PNG" alt="" class="mainimage">
+            <h2>The Bone-Chiller <br> Annapurna Base Camp &nbsp;3-D 2-N &nbsp;</h2><br>
+            <h3 class="price">Price Per Person: Rs.19000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn4" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Bone-Chiller" quantity="qn4" rate="19000">Add To Cart🛒</button>
+        </div>
+
+    </div>
+    <div class="proceed">
+        <button onclick="openModel()">PROCEED</button>
+        <p class="invalidText"></p>
+    </div>
+    <hr>
+    <div id="title3">
+        <h1>Chitwan</h1>
+    </div>
+    <div class="container3">
+        <div class="items"><img src="images/chitwan1nationalparkjunglesafari3days.PNG" alt="" class="mainimage">
+            <h2>The WildLife <br> Chitwan National Park &nbsp;2-D 1-N&nbsp;Safari</h2><br>
+            <h3 class="price">Price Per Person: Rs.18500</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn5" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The WildLife" quantity="qn5" rate="18500">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/chitwan2narayaniriverboatingtour.PNG" alt="" class="mainimage">
+            <h2>Sightsee The River <br> Narayani River &nbsp;1-D&nbsp; Boating Package</h2><br>
+            <h3 class="price">Price Per Person: Rs.4500</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn6" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="Sightsee The River" quantity="qn6" rate="4500">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/chitwan3tharuvillagetour.PNG" alt="" class="mainimage">
+            <h2>The Medieval Experience <br> Tharu Village &nbsp;2-D 1-N&nbsp;Tour</h2><br>
+            <h3 class="price">Price Per Person: Rs.6500</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn7" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Medieval Experience" quantity="qn7" rate="6500">Add To Cart🛒</button>
+        </div>
+
+
+    </div>
+    <div class="proceed">
+        <button onclick="openModel()">PROCEED</button>
+        <p class="invalidText"></p>
+    </div>
+    <hr>
+    <div id="title4">
+        <h1>Other Packages</h1>
+    </div>
+    <div class="container4">
+        <div class="items"><img src="images/2explorewildlife package.PNG" alt="" class="mainimage">
+            <h2>Chill In The Wild <br> Wildlife Reservers &nbsp;7-D 6-N&nbsp; Safari</h2><br>
+            <h3 class="price">Price Per Person: Rs.28000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn8" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="Chill In The Wild" quantity="qn8" rate="28000">Add To Cart🛒</button>
+        </div>
+        <div class="items"><img src="images/1explorepackage.PNG" alt="" class="mainimage">
+            <h2>The Divine Experience <br> 7 Temples &nbsp;7-D 6-N&nbsp;Tour</h2><br>
+            <h3 class="price">Price Per Person: Rs.30000</h3><br>
+            <h3>Package For:</h3><br>
+            <input type="number" name="people" id="qn9" min="1" max="15" value="1"><br>
+            <button class="addbtn" package="The Divine Experience" quantity="qn9" rate="30000">Add To Cart🛒</button>
+        </div>
+
+    </div>
+    <div class="proceed">
+        <button onclick="openModel()">PROCEED</button>
+        <p class="invalidText"></p>
+    </div>
+    <hr>
+
+    <div id="model">
+        <div id="bill">
+            <div class="modelHeader">
+                <span id="close">&times;</span>
+                <h1>BILL</h1>
+            </div>
+            <div class="modelBody">
+                <table id="billTable">
+                    <tr>
+                        <th>PACKAGE</th>
+                        <th>QUANTITY</th>
+                        <th>RATE</th>
+                        <th>PRICE</th>
+                    </tr>
+                </table>
+                <div class="proceed">
+                    <button><a href="payment-type.html" style="text-decoration: none;color: white;">PROCEED</a></button>
+                </div>
+            </div>
+            <div class="modelFooter">
+                <h1>THANK YOU!</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        let i = 0;
+        let text = 'Welcome To The Heavenly Nepal!';
+        let speed = 100;
+
+        function typeWriter() {
+            if (i < text.length) {
+                document.getElementById("demo").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        window.onload = typeWriter;
+
+        var slideNo = 0;
+        slideShow();
+        function slideShow() {
+            var o;
+            var slides = document.getElementsByClassName("slides");
+            var dots = document.getElementsByClassName("dots");
+            for (o = 0; o < slides.length; o++) {
+                slides[o].style.display = "none";
+                dots[o].className = dots[o].className.replace(" active", "");
+            }
+            slideNo++;
+            if (slideNo > slides.length) {
+                slideNo = 1;
+            }
+            slides[slideNo - 1].style.display = "block";
+            dots[slideNo - 1].className += " active";
+            setTimeout(slideShow, 3000);
+        }
+
+        document.querySelector('.btn').addEventListener('click', function () {
+            var element = document.querySelector('.container0');
+            var topPos = element.getBoundingClientRect().top;
+            window.scroll({
+                top: topPos,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        document.getElementById('button1').addEventListener('click', function () {
+            document.querySelector('#title1').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById('button2').addEventListener('click', function () {
+            document.querySelector('#title2').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById('button3').addEventListener('click', function () {
+            document.querySelector('#title3').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById('button4').addEventListener('click', function () {
+            document.querySelector('#title4').scrollIntoView({ behavior: 'smooth' });
+        });
+
+
+
+        const addToCartButtons = document.querySelectorAll('.addbtn');
+        var cartItems = [];
+
+        addToCartButtons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                var item = {
+                    btn: button,
+                    pack: button.getAttribute("package"),
+                    quantity: document.getElementById(button.getAttribute("quantity")).value,
+                    rate: button.getAttribute("rate")
+                }
+                if (button.textContent === "Added To Cart✔️") {
+                    button.textContent = "Add To cart 🛒";
+                    button.style.backgroundColor = "";
+                    removeFromCart(item);
+                } else {
+                    button.textContent = "Added To Cart✔️";
+                    button.style.backgroundColor = "green";
+                    addToCart(item);
+                }
+            });
+        });
+        function addToCart(itm) {
+            cartItems.push(itm);
+        }
+        function removeFromCart(itm) {
+            var index = cartItems.findIndex(object => {
+                return object.pack === itm.pack;
+            });
+            cartItems.splice(index, 1);
+        }
+        var model = document.getElementById("model");
+        var spam = document.getElementById("close");
+        function openModel() {
+            if (validate() === true) {
+                addToBill();
+                addTotal();
+                model.style.display = "block";
+            }
+        }
+        spam.onclick = function () {
+            deleteRows();
+            model.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == model) {
+                deleteRows();
+                model.style.display = "none";
+            }
+        }
+        function addToBill() {
+            updatePrice();
+            var table = document.getElementById("billTable");
+            var i;
+            for (i = 0; i < cartItems.length; i++) {
+                var row = table.insertRow(-1);
+                var package = row.insertCell(0);
+                var quantity = row.insertCell(1);
+                var rate = row.insertCell(2);
+                var price = row.insertCell(3);
+                package.innerHTML = cartItems[i].pack;
+                quantity.innerHTML = cartItems[i].quantity;
+                rate.innerHTML = cartItems[i].rate;
+                price.innerHTML = cartItems[i].quantity * cartItems[i].rate;
+            }
+        }
+        function addTotal() {
+            var total = 0;
+            var i;
+            for (i = 0; i < cartItems.length; i++) {
+                total += cartItems[i].rate * cartItems[i].quantity;
+            }
+            var table = document.getElementById("billTable");
+            var row = table.insertRow(-1);
+            row.insertCell(0).innerHTML = null;
+            row.insertCell(1).innerHTML = null;
+            var content = row.insertCell(2);
+            var price = row.insertCell(3);
+            content.innerHTML = "TOTAL";
+            price.innerHTML = total;
+            content.style.fontWeight = "bold";
+            price.style.fontWeight = "bold";
+        }
+        function deleteRows() {
+            var rowCount = billTable.rows.length;
+            var i;
+            for (i = rowCount - 1; i > 0; i--) {
+                billTable.deleteRow(i);
+            }
+        }
+        function updatePrice() {
+            var i;
+            for (i = 0; i < cartItems.length; i++) {
+                var btn = cartItems[i].btn;
+                var quan = document.getElementById(btn.getAttribute("quantity")).value;
+                cartItems[i].quantity = quan;
+            }
+        }
+        function validate() {
+            var text = document.getElementsByClassName("invalidText");
+            if (cartItems.length === 0) {
+                for(var i=0;i<text.length;i++){
+                    text[i].innerHTML="No items selected";
+                }
+                return false;
+            }
+            else {
+                for(var i=0;i<text.length;i++){
+                    text[i].innerHTML="";
+                }
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #060000;
+    width: 98vw;
+    text-align: center;
+}
+h1{
+    color: white;
+    margin-bottom: 4vh;
+    font-family: 'Ubuntu', sans-serif; ;
+}
+.cointainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 25vw;
+    margin-bottom:4vh ;
+    transition: 1s;
+}
+.box>img{
+    width: 100%;
+    height: 40vh; 
+    border-radius: 10px;
+}
+.box:hover{
+    transform: scale(1.2);
+    
+}
+
+.cointainer p{
+    color: white;
+
+}
+
+#slideContainer{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+#slideContainer img{
+    border: 2px solid rgb(200,200,200);
+    border-radius: 20px;
+   
+}
+.slides{
+    display: none;
+}
+#dotContainer{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width: 70%;
+}
+.dots{
+    display: inline-block;
+    background-color: rgba(150,150,150,0.6);
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+}
+.dots:hover{
+    background-color: rgba(194, 192, 192, 0.6);
+}
+.dots.active{
+    background-color: rgb(200,200,200);
+}
+.flash{
+    animation-name: flash;
+    animation-duration: 1.5s;
+}
+@keyframes flash{
+    from{opacity: 0.4;};
+    to{opacity: 1;};
+}

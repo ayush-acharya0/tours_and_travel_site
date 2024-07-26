@@ -1,0 +1,565 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+    body {
+        background-color: black;
+        font-family: 'Ubuntu', sans-serif;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .navigation {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    .navigation li {
+        padding: 20px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        margin: 10px;
+
+
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        transition-duration: 0.3s;
+    }
+
+    .navigation a:hover {
+        text-decoration: none;
+
+        color: rgb(0, 0, 0);
+        transition-duration: 0.3s;
+    }
+
+    .navigation li:hover {
+        background-color: white;
+        color: black;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 470px;
+        color: white;
+    }
+
+    #demo {
+        font-size: 4rem;
+    }
+
+    section span {
+        font-size: 1.7rem;
+    }
+
+    header::before {
+        background: url("Images/mountain.gif") no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .container {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    .container1 {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    .container2 {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    .container3 {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    .container4 {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+
+    .items h2 {
+        background-color: black;
+        color: white;
+        border: 5px solid black;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .items {
+        width: 500px;
+        height: 780px;
+        border: 3px solid black;
+        box-shadow: 15px 15px 25px grey;
+        margin: 20px;
+        border-radius: 5%;
+    }
+
+    .mainimage {
+        width: 100%;
+        height: 60%;
+        border-radius: 4%;
+    }
+
+    .items h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .items input {
+        display: block;
+        width: 250px;
+        text-align: center;
+        border: 5px solid black;
+        border-radius: 20px;
+        margin: auto;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+
+    .price {
+        background-color: skyblue;
+        border-radius: 100px;
+        color: black;
+        padding: 10px 10px;
+    }
+
+    .addbtn {
+        display: block;
+        width: 200px;
+        background-color: black;
+        color: white;
+        margin: auto;
+        padding: 10px 10px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: 600;
+        transition-duration: 0.4s;
+    }
+
+    .addbtn:hover {
+        background-color: green;
+        box-shadow: 10px 10px 20px green;
+    }
+
+    #title1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.4rem;
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    #title2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.4rem;
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    #title3 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.4rem;
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    #title4 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.4rem;
+        background-color: white;
+        text-decoration: underline;
+    }
+
+    #title0 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.4rem;
+        text-decoration: underline;
+    }
+
+    .container0 {
+        margin-top: 7%;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        overflow: none;
+    }
+
+    .scroller {
+        background-color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        display: block;
+        margin: 10px auto;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 10px 10px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+
+    }
+
+    .container0 h1 {
+        text-align: center;
+    }
+
+    .scroller:hover {
+        background-color: rgb(85, 75, 75);
+        box-shadow: 10px 10px 20px white;
+        color: black;
+
+    }
+
+    #slideContainer {
+        width: 70%;
+        position: relative;
+        margin: auto;
+    }
+
+    #slideContainer img {
+
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgb(74, 74, 74);
+    }
+
+    .slides {
+        display: none;
+    }
+
+    #dotContainer {
+        text-align: center;
+        margin: auto;
+        position: relative;
+        width: 70%;
+    }
+
+    .dots {
+        display: inline-block;
+        background-color: rgba(150, 150, 150, 0.6);
+        height: 20px;
+        width: 20px;
+        margin: 0 2px;
+        border-radius: 50%;
+        transition: background-color 1s ease;
+    }
+
+    .dots:hover {
+        background-color: rgba(194, 192, 192, 0.6);
+    }
+
+    .dots.active {
+        background-color: rgb(200, 200, 200);
+    }
+
+    .flash {
+        animation-name: flash;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes flash {
+        from {opacity: 0.4;};
+        to { opacity: 1; };
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn a {
+        position: relative;
+        background: #444;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        padding: 0.75rem 1.5rem;
+        transition: 0.5s;
+    }
+
+    .btn a:hover {
+        letter-spacing: 0.25rem;
+        background: var(--color);
+        color: var(--color);
+        box-shadow: 0 0 50px 10px var(--color);
+    }
+
+    .btn a::before {
+        content: "";
+        position: absolute;
+        inset: 2px;
+        background: #27282c;
+    }
+
+    .btn a span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .btn a i {
+        position: absolute;
+        inset: 0;
+        display: block;
+    }
+
+    .btn a i::before {
+        content: "";
+        position: absolute;
+        top: -3.5px;
+        left: 80%;
+        width: 10px;
+        height: 5px;
+        border: 2px solid var(--color);
+        background: #27282c;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+
+    .btn a:hover i::before {
+        left: 20%;
+        width: 20px;
+    }
+
+    .btn a i::after {
+        content: "";
+        position: absolute;
+        bottom: -3.5px;
+        left: 20%;
+        width: 10px;
+        height: 5px;
+        border: 2px solid var(--color);
+        background: #27282c;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+
+
+    .btn a:hover i::after {
+        left: 80%;
+        width: 20px;
+    }
+
+    #logogo {
+        display: block;
+        margin: auto;
+        width: 170px;
+        height: 100px;
+
+    }
+    .sbutton{
+        display: flex;
+
+
+    }
+
+    .visitnepal {
+        background-color: white;
+        height: 100px;
+        border-radius: 7px;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .socialmediaicons {
+        width: 700px;
+        height: 200px;
+    }
+
+    footer h3 {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+
+    @media only screen and (max-width:600px) {
+        .mainimage {
+            width: 100%;
+        }
+
+        .container0 {
+            width: fit-content;
+
+        }
+
+        .container1 {
+            width: fit-content;
+
+        }
+
+        .container2 {
+            width: fit-content;
+
+        }
+
+        .container3 {
+            width: fit-content;
+
+        }
+
+        .container4 {
+            width: fit-content;
+
+        }
+
+        .items h2 {
+            font-size: 1rem;
+        }
+
+    }
+
+    .proceed {
+        display: block;
+        height:100px;
+        margin: auto;
+        background-color: white;
+        color: white;
+        text-align: center;
+
+    }
+
+    .proceed button {
+        background-color: rgb(1, 1, 1);
+        color: white;
+        padding: 20px 60px;
+        cursor: pointer;
+        border-radius: 20px;
+        font-weight: 600;
+        transition-duration: 0.4s;
+        }
+    .proceed button:hover{
+        background-color: limegreen;
+        color:black;
+        box-shadow: 10px 10px 15px limegreen;
+    }
+
+    #model {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background-color: rgba(150, 150, 150, 0.6);
+        padding-top: 10px;
+    }
+
+    #bill {
+        margin: auto;
+        position: relative;
+        width: 60%;
+    }
+
+    .modelHeader,
+    .modelFooter {
+        background-color: rgb(13, 14, 13);
+        color: white;
+        padding: 10px 16px;
+        text-align: center;
+    }
+
+    .modelBody {
+        background-color: white;
+        color: black;
+        padding: 2px 16px;
+        overflow: scroll;
+    }
+
+    #close {
+        font-size: 36px;
+        float: right;
+        color: white;
+        cursor: pointer;
+    }
+
+    #close:hover {
+        color: green;
+    }
+
+    #billTable {
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid rgb(221, 221, 221);
+        width: 100%;
+        background-color: white;
+    }
+
+    th,
+    td {
+        text-align: left;
+        color: black;
+        padding: 16px;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(242, 242, 242);
+    }
+
+    .invalidText {
+        color: red;
+        font-size: 1.1rem;
+        font-weight: bolder;
+    }
+

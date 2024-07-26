@@ -68,7 +68,7 @@
     }
 
     header::before {
-        background: url("Images/mountain.gif") no-repeat center center/cover;
+        background: url("images/mountain.gif") no-repeat center center/cover;
         content: "";
         position: absolute;
         top: 0px;
